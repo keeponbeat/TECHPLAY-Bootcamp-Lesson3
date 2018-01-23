@@ -1,0 +1,24 @@
+{
+  "name": "techplay-bootcamp-lesson3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^15.2.0",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keeponbeat/TECHPLAY-Bootcamp-Lesson3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keeponbeat/TECHPLAY-Bootcamp-Lesson3/issues"
+  },
+  "homepage": "https://github.com/keeponbeat/TECHPLAY-Bootcamp-Lesson3#readme"
+}
