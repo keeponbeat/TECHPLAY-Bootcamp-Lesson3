@@ -1,3 +1,13 @@
 const add = require('./adder.js');
 
-console.log(add(5, 6));
+class ViewManager {
+	connectEventHundlers() {
+
+	}
+	onSubmit(event) {
+
+	}
+}
+
+const viewManager = new ViewManager();
+viewManager.connectEventHandlers();
