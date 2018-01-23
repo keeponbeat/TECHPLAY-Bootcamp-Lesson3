@@ -1,5 +1,4 @@
-
-node_module
-.c9
+node_module/
+.c9/
 .swp
 .swo
