@@ -5,6 +5,7 @@
   "main": "app.js",
   "devDependencies": {
     "browserify": "^15.2.0",
+    "nodemon": "^1.14.11",
     "watchify": "^3.9.0"
   },
   "scripts": {

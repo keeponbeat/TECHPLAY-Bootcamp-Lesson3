@@ -4,7 +4,7 @@ class ViewManager {
 
 	connectEventHundlers() {
 		document.getElementById('form-numbers')
-		.addEventListener('submit', this.onSubmit);
+		.addEventListener('submit', this.onSubmit.bind(this));
 	}
 
 	onSubmit(event) {
@@ -14,7 +14,12 @@ class ViewManager {
 		num1 = parseInt(num1, 10);
 		num2 = parseInt(num2, 10);
 		const sum = add(num1, num2);
-		alert('合計は' + num1 + '+' + num2 + '=' + sum + 'です');
+		this.renderResult(sum);
+	}
+
+	renderResult(sum) {
+		const element = document.getElementById('result');
+		element.innerText = sum.toString();
 	}
 }
 
