@@ -4,13 +4,12 @@
   "description": "this is Addinator.",
   "main": "server/server.js",
   "devDependencies": {
-    "browserify": "^15.2.0",
     "nodemon": "^1.14.11",
     "watchify": "^3.9.0"
   },
   "scripts": {
+    "postinstall": "browserify client/app.js -o client/bundle.js",
     "start": "node server/server.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/keeponbeat/TECHPLAY-Bootcamp-Lesson3/issues"
   },
-  "homepage": "https://github.com/keeponbeat/TECHPLAY-Bootcamp-Lesson3#readme"
+  "homepage": "https://github.com/keeponbeat/TECHPLAY-Bootcamp-Lesson3#readme",
+  "dependencies": {
+    "browserify": "^15.2.0"
+  }
 }
