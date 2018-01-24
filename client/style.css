@@ -1,0 +1,42 @@
+#form-numbers{
+	display:block;
+	margin:20px auto 0 auto;
+	width:100px;
+	height:200px;
+	text-align:center;
+}
+#form-numbers input[type=text]{
+	display:block;
+	width:100%;
+	height:50px;
+	border:2px gray solid;
+	border-radius:5px;
+	box-sizing:border-box;
+	margin:15px 0;
+	padding:3px;
+	font-size:45px;
+	font-weight:bold;
+	text-align:center;
+}
+#form-numbers hr{
+	display:block;
+	border-top:2px gray solid;
+	margin:25px 0 15px 0;
+}
+#form-numbers #result{
+	font-size:45px;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+	margin-bottom:10px;
+}
+#form-numbers input[type=submit]{
+	display:block;
+	width:100px;
+	height:45px;
+	font-size:25px;
+	font-weight:600;
+	border-radius:5px;
+	outline:none;
+	text-align:center;
+}

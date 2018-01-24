@@ -29,7 +29,11 @@ const server = http.createServer(function(request, response) {
               response.statusCode = 500;
               response.end(`Internal Server Error!! \n ${err}`.toString('UTF-8'));
             }
-            response.setHeader('Content-Type', 'text/html; charset=UTF-8');
+            if(/.*\.css$/.test(filePath)) {
+							response.setHeader('Content-Type', 'text/css; charset=UTF-8');
+            } else {
+							response.setHeader('Content-Type', 'charset=UTF-8');
+            }
             response.statusCode = 200;
             response.end(data.toString('UTF-8'));
           });

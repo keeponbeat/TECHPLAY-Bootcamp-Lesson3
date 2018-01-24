@@ -2,6 +2,7 @@
 <html lang=ja>
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
 	<link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
@@ -19,20 +20,19 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
 	<form id="form-numbers">
 		<div>
-			<label for="input-number1">Number 1</label>
 			<input id="input-num1" type="text" size="3">
 		</div>
 		<div>
-			<label for="input-number2">Number 2</label>
 			<input id="input-num2" type="text" size="3">
 		</div>
+		<hr>
 		<div>
-			<label for="result">Sum</label>
-			<span id="result"></span>
+			<span id="result">?</span>
 		</div>
 		<input type="submit" value="計算！">
 	</form>
